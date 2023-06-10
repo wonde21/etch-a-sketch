@@ -11,16 +11,16 @@
     <h1>Etch-A-Sketch</h1>
    <div class="container">
         <div class="setings">
-        <input type="color">
-        <button class="color">Color_Mode</button>
-        <button class="random_color">Random_color</button>
-        <button class="ereser">Ereser</button>
-        <button class="reset">Reset/clear</button>
+        <input id = "color-input" type="color">
+        <button class="color"><span class="btn-txt">Color_Mode</span></button>
+        <button class="random_color"><span class="btn-txt">Random_color</span></button>
+        <button class="eraser"><span class="btn-txt">Eraser</span></button>
+        <button class="reset"><span class="btn-txt">Reset/clear</span></button>
         <span class="no">21</span>
-        <input type="range" name="no_of_squer" id="range" max="64" value="32" >
+        <input type="range" name="no_of_square" id="range" min="1" max="64" value="21">
     </div>
 
-    <div class="board" style="--squer_no:21">
+    <div class="board">
     
     </div>
    </div>
